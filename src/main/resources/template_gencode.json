@@ -1,0 +1,66 @@
+{
+  "className": "User",
+  "listMethod": [
+    {
+      "typeRequest": "get",
+      "nameMethod": "getUser",
+      "typeMethod": "List",
+      "paramMethod": "",
+      "typeParamMethod": "",
+      "PathVariable": "",
+      "RequestParam": "",
+      "nativeSql": "select * from",
+      "table": "table"
+    },
+    {
+      "typeRequest": "post",
+      "nameMethod": "getUser",
+      "typeMethod": "List",
+      "paramMethod": "id",
+      "typeParamMethod": "Long",
+      "pathVariable": "id",
+      "requestParam": "id",
+      "object": "",
+      "nativeSql": "select * from",
+      "table": "table"
+    },
+    {
+      "typeRequest": "put",
+      "nameMethod": "getUser",
+      "typeMethod": "List",
+      "paramMethod": "",
+      "typeParamMethod": "",
+      "PathVariable": "",
+      "RequestParam": "",
+      "object": "",
+      "nativeSql": "select * from",
+      "table": "table"
+    },
+    {
+      "typeRequest": "delete",
+      "nameMethod": "getUser",
+      "typeMethod": "List",
+      "paramMethod": "",
+      "typeParamMethod": "",
+      "PathVariable": "",
+      "RequestParam": "",
+      "object": "",
+      "nativeSql": "select * from",
+      "table": "table"
+    }
+  ],
+  "Field": [
+    {
+      "field": "id",
+      "datatype": "Long"
+    },
+    {
+      "field": "age",
+      "datatype": "int"
+    },
+    {
+      "field": "name",
+      "datatype": "String"
+    }
+  ]
+}
